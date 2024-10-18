@@ -393,7 +393,8 @@ boolean L9_aBooPeak()
 
 		if (clueAmt < 3)
 		{
-			januaryToteAcquire($item[Broken Champagne Bottle]);
+			// boo clues have 15% drop
+			provideItem(567, $location[A-Boo Peak], false);
 		}
 
 		return autoAdv(1, $location[A-Boo Peak]);
@@ -448,7 +449,7 @@ boolean L9_aBooPeak()
 			lihcface = "-equip lihc face";
 		}
 		string parrot = ", switch exotic parrot, switch mu, switch trick-or-treating tot";
-		if(!canChangeFamiliar())
+		if(!canChangeFamiliar() || in_avantGuard())
 		{
 			parrot = "";
 		}
@@ -675,7 +676,8 @@ boolean L9_aBooPeak()
 	{
 		if ($location[A-Boo Peak].turns_spent < 10)
 		{
-			januaryToteAcquire($item[Broken Champagne Bottle]);
+			// boo clues have 15% drop
+			provideItem(567, $location[A-Boo Peak], false);
 		}
 
 		autoAdv(1, $location[A-Boo Peak]);
