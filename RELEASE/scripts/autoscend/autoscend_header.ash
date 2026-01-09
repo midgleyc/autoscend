@@ -690,6 +690,14 @@ void auto_wantSoCP();
 void auto_getCrimboSkeleConsumables();
 
 ########################################################################################################
+//Defined in autoscend/iotms/mr2026.ash
+boolean auto_haveLegendarySealClubbingClub();
+int auto_clubEmBackInTimesRemaining();
+int auto_clubEmAcrossTheBattlefieldsRemaining();
+int auto_clubEmIntoNextWeeksRemaining();
+boolean wantToClubEmBackInTime(location loc, monster enemy);
+
+########################################################################################################
 //Defined in autoscend/iotms/ttt.ash
 int[item] eudora_xiblaxian();
 void auto_useWardrobe();
@@ -2170,3 +2178,4 @@ modifier resistanceModifier (element el);
 modifier damageModifier     (element el);
 modifier spellDamageModifier(element el);
 float auto_getElementalDamageMultiplier(element source, element target);
+int auto_remainingShantyTurns();

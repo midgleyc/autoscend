@@ -1,4 +1,4 @@
-since r28859;	//  add a function for abilities a shrunken head zombie will gran
+since r28864;	// legendary seal clubbing club
 /***
 	autoscend_header.ash must be first import
 	All non-accessory scripts must be imported here
@@ -50,6 +50,7 @@ import <autoscend/iotms/mr2022.ash>
 import <autoscend/iotms/mr2023.ash>
 import <autoscend/iotms/mr2024.ash>
 import <autoscend/iotms/mr2025.ash>
+import <autoscend/iotms/mr2026.ash>
 import <autoscend/iotms/ttt.ash>
 
 import <autoscend/paths/actually_ed_the_undying.ash>
